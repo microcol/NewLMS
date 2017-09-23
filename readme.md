@@ -4,11 +4,11 @@ This artical will help you to integrate Laravel 5.5 application with bigbluebutt
 
 # About Big Blue Button
 BigBlueButton is an open source web conferencing system. It is based on GNU/Linux operating system and runs on Ubuntu 16.04. In addition to various web conferencing services, it has integrations for many of the major learning and content management systems. For more detail visit 
-[bigbluebutton](https://bigbluebutton.org/){:target="_blank"}
+[bigbluebutton](https://bigbluebutton.org/)
 
 
 # Installation Big Blue Button Server
-[install bigbluebutton](http://docs.bigbluebutton.org/install/install.html){:target="_blank"}
+[install bigbluebutton](http://docs.bigbluebutton.org/install/install.html)
 after installation run command bbb-conf --secret on bigbluebutton server to get bigbluebutton api url and secret key like
 ````
 $ bbb-conf --secret
