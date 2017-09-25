@@ -12,10 +12,10 @@ BigBlueButton is an open source web conferencing system. It is based on GNU/Linu
 after installation run command bbb-conf --secret on bigbluebutton server to get bigbluebutton api url and secret key like
 ````
 $ bbb-conf --secret
-URL: http://192.168.100.45/bigbluebutton/
+URL: http://192.168.200.500/bigbluebutton/
 Secret: a7007506f1efffa497922fc34e3184dc
 check bigbluebutton api like 
-http://192.168.100.45/bigbluebutton/
+http://192.168.200.500/bigbluebutton/
 output should look like
 <response>
 	<returncode>
@@ -43,7 +43,7 @@ output should look like
 - Configure it in your localhost server i.e xampp,appache etc
 - Create a database name "homestead"
 - set bbb-conf --secret output in .env file
-- BBB_SERVER_BASE_URL=http://192.168.100.45/bigbluebutton/
+- BBB_SERVER_BASE_URL=http://192.168.200.500/bigbluebutton/
 - BBB_SECURITY_SALT=a7007506f1efffa497922fc34e3184dc
 - Run php artisan migrate in composer
 - now run the cloned directory in browser i.e http://localhost/bigbluebutton-with-laravel
