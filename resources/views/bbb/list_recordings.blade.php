@@ -1,7 +1,7 @@
 @extends('bbb.layouts_default')
 @section('content')    
 
-  <h1>Meetings List</h1>
+  <h1>Recordings List</h1>
  
 	<table class="table table-bordered">
 		<thead>
